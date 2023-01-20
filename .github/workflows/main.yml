@@ -18,4 +18,6 @@ jobs:
       - name: Run eslint
         run: |
           npm install
+          npm run build
+          npm run test
           npm run lint
