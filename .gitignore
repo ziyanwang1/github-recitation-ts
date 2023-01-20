@@ -1,0 +1,12 @@
+# dependencies
+dist/
+node_modules/
+
+# macOS
+.DS_Store
+
+# WSL
+*.Identifier
+
+# misc
+npm-debug.log*
