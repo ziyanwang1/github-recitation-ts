@@ -14,7 +14,11 @@ module.exports = (req, res) => {
   }
 
   const fibN = fibonacci(parseInt(num));
-  const result = `fibonacci(${num}) is ${fibN}`;
+  let result = `fibonacci(${num}) is ${fibN}`;
+
+  if (fibN < 0) {
+    result = `fibonacci(${num}) is undefined`;
+  }
 
   res.send(result);
 };
