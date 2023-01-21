@@ -2,7 +2,7 @@
 
 const fibonacci = require("./fib");
 
-module.exports = (req, res) => {
+export default (req, res) => {
   const { num } = req.params;
 
   const fibN = fibonacci(parseInt(num));

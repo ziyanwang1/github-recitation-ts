@@ -1,6 +1,6 @@
-const express = require("express");
-const request = require("supertest");
-const fibRoute = require("../src/fibRoute");
+import express from "express";
+import request from "supertest";
+import fibRoute from "../src/fibRoute";
 
 const app = express();
 app.get("/fib/:num", fibRoute);
