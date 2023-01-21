@@ -1,9 +1,9 @@
 const express = require("express");
 const request = require("supertest");
-const fib = require("../src/fib");
+const fibRoute = require("../src/fibRoute");
 
 const app = express();
-app.get("/fib/:num", fib);
+app.get("/fib/:num", fibRoute);
 
 describe("rest", () => {
   it("fib zero test", async () => {
