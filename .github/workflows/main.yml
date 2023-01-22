@@ -19,9 +19,9 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: Run tests
-        run: |
-          npm run test
       - name: Run eslint
         run: |
           npm run lint
+      - name: Run tests
+        run: |
+          npm run test
