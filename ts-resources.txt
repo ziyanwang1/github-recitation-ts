@@ -1,3 +1,5 @@
+Resources for TS translation:
+
 fib.ts:
  - exporting: https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#exporting-from-modules
  - functions: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
